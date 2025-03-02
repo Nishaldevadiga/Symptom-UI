@@ -1,0 +1,42 @@
+.education-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Light background for readability */
+    border-radius: 8px;
+  }
+  
+  .education-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2a5298; /* Matches your Prader-Willi color theme */
+  }
+  
+  .education-container h3 {
+    margin-top: 30px;
+    color: #1e3c72;
+  }
+  
+  .education-container p,
+  .education-container li {
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .references ul,
+  .symptoms ul,
+  .management ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .disclaimer {
+    margin-top: 20px;
+    background: #ffe6e6;
+    padding: 10px;
+    border-radius: 5px;
+    color: #cc0000;
+    font-weight: 500;
+  }
+  

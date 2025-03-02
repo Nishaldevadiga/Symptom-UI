@@ -1,0 +1,36 @@
+{
+    
+   "en":"English",
+    "hn":"Hindi",
+    "es":"Spanish",
+
+
+    "PWS_EDUCATION": {
+      "TITLE": "Prader-Willi Syndrome Education",
+      "INTRO_TITLE": "What is Prader-Willi Syndrome?",
+      "INTRO_DESC_1": "Prader-Willi Syndrome (PWS) is a complex genetic condition that affects many parts of the body...",
+      "INTRO_DESC_2": "As children with PWS get older, they typically experience insatiable appetite...",
+      "SYMPTOMS_TITLE": "Key Symptoms",
+      "SYMPTOMS_1": "Hypotonia (weak muscle tone)",
+      "SYMPTOMS_2": "Failure to thrive in infancy",
+      "SYMPTOMS_3": "Insatiable appetite leading to obesity",
+      "SYMPTOMS_4": "Growth hormone deficiency",
+      "SYMPTOMS_5": "Cognitive and behavioral challenges",
+      "DIAGNOSIS_TITLE": "Diagnosis",
+      "DIAGNOSIS_DESC": "Diagnosis typically involves genetic testing...",
+      "MANAGEMENT_TITLE": "Management & Support",
+      "MANAGEMENT_DESC": "Management of Prader-Willi Syndrome often includes:",
+      "MANAGEMENT_1": "Calorie-controlled diets and food security measures",
+      "MANAGEMENT_2": "Growth hormone therapy",
+      "MANAGEMENT_3": "Physical therapy to improve muscle tone",
+      "MANAGEMENT_4": "Behavioral and educational support",
+      "MANAGEMENT_5": "Emotional and social counseling",
+      "MANAGEMENT_EXTRA": "Collaboration with a multidisciplinary team is crucial...",
+      "REFERENCES_TITLE": "References & Resources",
+      "REFERENCE_1": "Prader-Willi Syndrome Association (USA)",
+      "REFERENCE_2": "NCBI - Prader-Willi Syndrome Overview",
+      "REFERENCE_3": "NIH - Rare Diseases (Prader-Willi Syndrome)",
+      "DISCLAIMER": "This information is for educational purposes only..."
+    }
+  }
+  

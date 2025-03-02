@@ -1,0 +1,66 @@
+<div class="community-container">
+    <!-- Header -->
+    <mat-toolbar color="primary" class="community-header">
+      <span>Our Community</span>
+    </mat-toolbar>
+  
+    <!-- Post Creation Form -->
+    <div class="post-form-container">
+      <mat-card class="post-card create-post">
+        <mat-card-header>
+          <mat-card-title>Create a Post</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <mat-form-field class="full-width">
+            <textarea matInput placeholder="Share your Story..." [(ngModel)]="newPostContent"></textarea>
+          </mat-form-field>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button color="primary" (click)="addPost()">Post</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  
+    <!-- Discussion Feed -->
+    <div class="discussion-feed">
+      <mat-card *ngFor="let post of posts" class="post-card">
+        <mat-card-header>
+          <div class="profile-icon">
+            <mat-icon>person</mat-icon>
+          </div>
+          <div>
+            <mat-card-title>{{ post.author }}</mat-card-title>
+            <mat-card-subtitle>{{ post.date | date:'medium' }}</mat-card-subtitle>
+          </div>
+        </mat-card-header>
+        <mat-card-content>
+          <p>{{ post.content }}</p>
+        </mat-card-content>
+        <mat-card-actions class="actions">
+          <button mat-icon-button (click)="likePost(post)">
+            <mat-icon>thumb_up</mat-icon> {{ post.likes }}
+          </button>
+          <button mat-icon-button (click)="toggleComments(post)">
+            <mat-icon>comment</mat-icon> {{ post.comments.length }}
+          </button>
+        </mat-card-actions>
+  
+        <!-- Comment Section -->
+        <div *ngIf="post.showComments" class="comment-section">
+          <mat-form-field class="full-width">
+            <input matInput placeholder="Write a comment..." [(ngModel)]="post.newComment" />
+          </mat-form-field>
+          <button mat-button color="accent" (click)="addComment(post)">Comment</button>
+  
+          <div *ngFor="let comment of post.comments" class="comment">
+            <mat-icon class="comment-icon">person</mat-icon>
+            <div>
+              <strong>{{ comment.author }}</strong>
+              <p>{{ comment.content }}</p>
+            </div>
+          </div>
+        </div>
+      </mat-card>
+    </div>
+  </div>
+  

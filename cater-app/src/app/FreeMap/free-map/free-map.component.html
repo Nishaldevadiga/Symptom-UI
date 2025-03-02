@@ -1,0 +1,15 @@
+<div class="map-container">
+    <div #map class="leaflet-map"></div>
+  </div>
+  
+  <!-- Clinic Location Cards -->
+  <div class="clinic-list">
+    <mat-card *ngFor="let clinic of clinicLocations" class="clinic-card">
+      <mat-card-title>{{ clinic.name }}</mat-card-title>
+      <mat-card-content>
+        <p><strong>Latitude:</strong> {{ clinic.lat }}</p>
+        <p><strong>Longitude:</strong> {{ clinic.lng }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  

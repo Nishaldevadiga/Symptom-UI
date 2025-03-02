@@ -8,14 +8,6 @@ import { Router } from '@angular/router';
   standalone: false
 })
 export class AppComponent {
-  constructor(private router: Router) {}
-
-  navigateTo(page: string) {
-    if (page === 'bot') {
-      window.open('http://localhost:8501/', '_blank');
-    } else {
-      this.router.navigate([`/${page}`]);
-    }
-  }
+  
 }
 

@@ -1,0 +1,89 @@
+/* Overall Container */
+.community-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full screen height */
+    width: 100vw;  /* Full screen width */
+    overflow: hidden; /* Prevents scrolling beyond the viewport */
+  }
+  
+  /* Header */
+  .community-header {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Post Creation Form */
+  .post-form-container {
+    padding: 20px;
+    background-color: #f7f7f7;
+    flex: 0 0 auto; /* Prevent it from growing or shrinking */
+  }
+  
+  .create-post {
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Discussion Feed */
+  .discussion-feed {
+    flex: 1 1 auto; /* Make it take up the remaining space */
+    overflow-y: auto; /* Enable scrolling for posts */
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .post-card {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Profile Icon */
+  .profile-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  
+  /* Actions (Like & Comment Buttons) */
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  /* Comments Section */
+  .comment-section {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .comment {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+  
+  .comment-icon {
+    margin-right: 8px;
+  }
+  
+  /* Full-Width Input Fields */
+  .full-width {
+    width: 100%;
+  }
+  

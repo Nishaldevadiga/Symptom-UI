@@ -1,0 +1,81 @@
+/* Remove default margins/padding so background covers full width/height */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* #home container fills the viewport */
+#home {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #3b5b96, #4c6ea8, #5d80ba);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex; /* Add flexbox layout */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: flex-start; /* Align children to the top */
+  padding-top: 50px; /* Add some top padding */
+}
+
+/* Main Title */
+.main-title {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  margin: 0; /* Remove default margins */
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.inspired-by {
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 10px; /* Add some space between title and quote */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Container for the cards */
+.container {
+  text-align: center;
+  padding: 20px;
+  max-width: 800px; /* Limit container width for better readability */
+  width: 100%; /* Make container responsive */
+}
+
+/* Card Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Individual Cards */
+.card {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}

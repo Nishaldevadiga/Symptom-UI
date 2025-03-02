@@ -1,0 +1,84 @@
+<div class="container">
+    <mat-select [(value)]="_translate.currentLang" (selectionChange)="dropdownchange($event)">
+      <mat-select-trigger>
+        {{ _translate.currentLang | translate }}
+      </mat-select-trigger>
+      <mat-option *ngFor="let lang of supLang" [value]="lang">
+        {{ lang | translate }}
+      </mat-option>
+    </mat-select>
+  </div>
+  
+  <!-- (C) Your PWS Education content -->
+  <div class="education-container">
+    <h2>{{ 'PWS_EDUCATION.TITLE' | translate }}</h2>
+  
+    <!-- Introduction -->
+    <section class="intro">
+      <h3>{{ 'PWS_EDUCATION.INTRO_TITLE' | translate }}</h3>
+      <p>{{ 'PWS_EDUCATION.INTRO_DESC_1' | translate }}</p>
+      <p>{{ 'PWS_EDUCATION.INTRO_DESC_2' | translate }}</p>
+    </section>
+  
+    <!-- Key Symptoms -->
+    <section class="symptoms">
+      <h3>{{ 'PWS_EDUCATION.SYMPTOMS_TITLE' | translate }}</h3>
+      <ul>
+        <li>{{ 'PWS_EDUCATION.SYMPTOMS_1' | translate }}</li>
+        <li>{{ 'PWS_EDUCATION.SYMPTOMS_2' | translate }}</li>
+        <li>{{ 'PWS_EDUCATION.SYMPTOMS_3' | translate }}</li>
+        <li>{{ 'PWS_EDUCATION.SYMPTOMS_4' | translate }}</li>
+        <li>{{ 'PWS_EDUCATION.SYMPTOMS_5' | translate }}</li>
+      </ul>
+    </section>
+  
+    <!-- Diagnosis -->
+    <section class="diagnosis">
+      <h3>{{ 'PWS_EDUCATION.DIAGNOSIS_TITLE' | translate }}</h3>
+      <p>{{ 'PWS_EDUCATION.DIAGNOSIS_DESC' | translate }}</p>
+    </section>
+  
+    <!-- Management & Support -->
+    <section class="management">
+      <h3>{{ 'PWS_EDUCATION.MANAGEMENT_TITLE' | translate }}</h3>
+      <p>{{ 'PWS_EDUCATION.MANAGEMENT_DESC' | translate }}</p>
+      <ul>
+        <li>{{ 'PWS_EDUCATION.MANAGEMENT_1' | translate }}</li>
+        <li>{{ 'PWS_EDUCATION.MANAGEMENT_2' | translate }}</li>
+        <li>{{ 'PWS_EDUCATION.MANAGEMENT_3' | translate }}</li>
+        <li>{{ 'PWS_EDUCATION.MANAGEMENT_4' | translate }}</li>
+        <li>{{ 'PWS_EDUCATION.MANAGEMENT_5' | translate }}</li>
+      </ul>
+      <p>{{ 'PWS_EDUCATION.MANAGEMENT_EXTRA' | translate }}</p>
+    </section>
+  
+    <!-- References & Resources -->
+    <section class="references">
+      <h3>{{ 'PWS_EDUCATION.REFERENCES_TITLE' | translate }}</h3>
+      <ul>
+        <li>
+          <a href="https://www.pwsausa.org/" target="_blank">
+            {{ 'PWS_EDUCATION.REFERENCE_1' | translate }}
+          </a>
+        </li>
+        <li>
+          <a href="https://www.ncbi.nlm.nih.gov/books/NBK1330/" target="_blank">
+            {{ 'PWS_EDUCATION.REFERENCE_2' | translate }}
+          </a>
+        </li>
+        <li>
+          <a href="https://rarediseases.info.nih.gov/diseases/12471/prader-willi-syndrome" target="_blank">
+            {{ 'PWS_EDUCATION.REFERENCE_3' | translate }}
+          </a>
+        </li>
+      </ul>
+    </section>
+  
+    <!-- Disclaimer -->
+    <section class="disclaimer">
+      <p>
+        <strong>{{ 'PWS_EDUCATION.DISCLAIMER' | translate }}</strong>
+      </p>
+    </section>
+  </div>
+  

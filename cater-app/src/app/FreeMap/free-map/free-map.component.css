@@ -1,0 +1,26 @@
+.map-container {
+    width: 100%;
+    height: 500px;
+    position: relative;
+  }
+  
+  .leaflet-map {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+  
+  .clinic-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 20px;
+  }
+  
+  .clinic-card {
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  

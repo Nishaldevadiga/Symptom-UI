@@ -1,0 +1,36 @@
+{
+    
+    "en":"English",
+    "hn":"Hindi",
+    "es":"Spanish",
+
+
+    "PWS_EDUCATION": {
+      "TITLE": "Educación sobre el síndrome de Prader-Willi",
+      "INTRO_TITLE": "¿Qué es el síndrome de Prader-Willi?",
+      "INTRO_DESC_1": "El síndrome de Prader-Willi (PWS) es una condición genética compleja que afecta a muchas partes del cuerpo...",
+      "INTRO_DESC_2": "A medida que los niños con SPW crecen, normalmente experimentan un apetito insaciable...",
+      "SYMPTOMS_TITLE": "Síntomas clave",
+      "SYMPTOMS_1": "Hipotonía (tono muscular débil)",
+      "SYMPTOMS_2": "No prosperar en la infancia",
+      "SYMPTOMS_3": "Apetito insaciable que conduce a la obesidad",
+      "SYMPTOMS_4": "Deficiencia de la hormona del crecimiento",
+      "SYMPTOMS_5": "desafíos cognitivos y conductuales",
+      "DIAGNOSIS_TITLE": "Diagnóstico",
+      "DIAGNOSIS_DESC": "El diagnóstico generalmente implica pruebas genéticas...",
+      "MANAGEMENT_TITLE": "Gestión y soporte",
+      "MANAGEMENT_DESC": "El tratamiento del síndrome de Prader-Willi suele incluir:",
+      "MANAGEMENT_1": "Dietas controladas en calorías y medidas de seguridad alimentaria",
+      "MANAGEMENT_2": "Terapia con hormona de crecimiento",
+      "MANAGEMENT_3": "Fisioterapia para mejorar el tono muscular.",
+      "MANAGEMENT_4": "Apoyo conductual y educativo.",
+      "MANAGEMENT_5": "Asesoramiento emocional y social.",
+      "MANAGEMENT_EXTRA": "La colaboración con un equipo multidisciplinar es crucial...",
+      "REFERENCES_TITLE": "Referencias y recursos",
+      "REFERENCE_1": "Asociación del Síndrome de Prader-Willi (USA)",
+      "REFERENCE_2": "NCBI - Descripción general del síndrome de Prader-Willi",
+      "REFERENCE_3": "NIH - Enfermedades raras (síndrome de Prader-Willi)",
+      "DISCLAIMER": "Esta información es sólo para fines educativos..."
+    }
+  }
+  
