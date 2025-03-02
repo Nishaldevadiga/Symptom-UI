@@ -1,0 +1,66 @@
+/* Remove default margins/padding so background covers full width/height */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* #home container fills the viewport */
+#home {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #3b5b96, #4c6ea8, #5d80ba);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+/* Main Title */
+.main-title {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  margin: 0px 0 30px; /* top, right/left, bottom */
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  padding-top: 120px;
+}
+
+/* Container for the cards */
+.container {
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* Card Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Individual Cards */
+.card {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
